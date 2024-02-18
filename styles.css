@@ -59,6 +59,8 @@ h {
 .hair-pic {
   width: 20vw;
   height: 20vh;
+  border-radius: 20px;
+  border: 2px solid #5694b0;
 }
 
 #far-left {
@@ -155,6 +157,7 @@ h {
 
 .big-text {
   font-size: 30px;
+  padding-left: 10px;
 }
 
 .absolute-box {
@@ -211,6 +214,17 @@ h {
   #bottom-right {
     width: auto;
   }
+
+  .top-section {
+    height: 25vh;
+  }
+
+  #top-text {
+    font-size: 20px;
+
+  }
+
+  
 
   /* .hair-pic {
     width: 50vw;
