@@ -53,6 +53,12 @@ h {
   border-radius: 25px;
   /* margin-left: -20px; */
   /* padding-left: -20vw; */
+  background-image: url("hair-pics/hair-shortRed.png")
+}
+
+.hair-pic {
+  width: 20vw;
+  height: 20vh;
 }
 
 #far-left {
@@ -178,8 +184,10 @@ h {
       "btm-left btm-right"
       "foot foot";
   }
-
-
+  .hair-pic {
+    width: 40vw;
+    height: 25vh;
+  }
 }
 
 @media (max-width: 950px) {
@@ -204,4 +212,12 @@ h {
     width: auto;
   }
 
+  /* .hair-pic {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  .square {
+    height: 70vh;
+  } */
 }
