@@ -1,0 +1,112 @@
+body {
+  background-color: #EDEDED;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5%;
+  padding: 5%;
+
+  height: 180vh;
+  width: 100vw;
+}
+
+.hair-box {
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  object-position: top;
+  border: 5px solid #3b697e;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px black;
+}
+
+@media (max-width: 1200px) {
+  .main-container {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 400vh;
+    grid-gap: 2%;
+  }
+}
+
+@media (max-width: 950px) {
+  .main-container {
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: 1fr;
+    height: 1200vh;
+    grid-gap: 1%;
+  }
+}
+
+
+#a {
+  background-image: url("hair-pics/hair-a.png");
+}
+
+#b {
+  background-image: url("hair-pics/hair-b.png");
+}
+
+#c {
+  background-image: url("hair-pics/hair-c.png");
+}
+
+#d {
+  background-image: url("hair-pics/hair-d.png");
+}
+
+#e {
+  background-image: url("hair-pics/hair-e.png");
+}
+
+#f {
+  background-image: url("hair-pics/hair-f.png");
+}
+
+#g {
+  background-image: url("hair-pics/hair-g.png");
+}
+
+#h {
+  background-image: url("hair-pics/hair-h.png");
+}
+
+#i {
+  background-image: url("hair-pics/hair-i.png");
+}
+
+#j {
+  background-image: url("hair-pics/hair-j.png");
+}
+
+#e {
+  background-image: url("hair-pics/hair-shortBrown.png");
+}
+
+#k {
+  background-image: url("hair-pics/hair-k.png");
+}
+
+#l {
+  background-image: url("hair-pics/hair-l.png");
+}
+
+#m {
+  background-image: url("hair-pics/hair-m.png");
+}
+
+#n {
+  background-image: url("hair-pics/hair-n.png");
+}
+
+#o {
+  background-image: url("hair-pics/hair-o.png");
+}
+
+#p {
+  background-image: url("hair-pics/hair-p.png");
+}
+

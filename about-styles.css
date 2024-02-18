@@ -1,0 +1,20 @@
+body {
+  background-color: #EDEDED;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* padding: 10vh; */
+  height: 71vh;
+}
+
+.text {
+  padding: 2vh;
+  padding-bottom: 1vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+

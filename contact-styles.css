@@ -1,0 +1,39 @@
+body {
+  background-color: #EDEDED;
+}
+
+
+.main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  min-height: 86vh;
+  width: 100vw;
+  position: relative;
+}
+
+.foot-bar {
+  position: absolute;
+  bottom: 0;
+}
+
+.text {
+  padding: 2vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+#header {
+  font-size: 20px;
+  font-weight: 1000;
+  padding-top: 5vh;
+}
+
+#secret {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  width: 40px;
+}
